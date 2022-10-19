@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+	<title>Checkout - Webcomics.Plus</title>
+	
+	<head>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="resources/css/style.css" type="text/css" media="all">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+		<script src="resources/javascript/jsquery.js" defer> </script>
+	</head>
+	
+	<body id="checkoutBody">
+		
+		<header>
+		
+			<img src="images/logo.png" class="logoImg" alt="logo">
+			<img src="images/Banner_Test.jpg" class="bannerImg" alt="banner">
+			
+			<!-- Menu taps-->
+			<nav>
+				<menu id="navMenu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						
+						<li><a>About</a>
+							<ul>
+								<li><a href="links.html">Links and References</a></li>
+							</ul>
+						</li>
+
+						<li><a>View Artwork</a>
+							<ul>
+								<li><a href="category.html">Category</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="exhibition.html">Exhibition</a></li>
+							</ul>
+						</li>
+
+						<li><a>Contact Us</a>
+							<ul>
+								<li><a href="contact-us.html">Contact Us</a></li>
+							</ul>
+						</li>
+					</ul>
+				</menu>
+			</nav>
+		
+			<h1>Checkout</h1>
+			<h2>Purchase artwork to add to your collection.</h2>
+			
+		</header>
+		
+		<section id="cartSection">
+			<h2>Cart Item</h2>
+		<!-- This needs to be populated based on what item was clicked previously -->
+			<div id="productCard">
+				<img>  
+				<h3>Product Title</h3>
+				<p id="productDesc">Add product description</p>
+			</div> 
+			
+		</section>
+		
+		<main id="checkoutMain">
+			<img src="images/logo-small.png">
+			<p id="orderLabel"><label id="orderNumLabel">Order No.: <strong>01</strong></label> <label id="totalAmtLabel">Total Amount: <strong>$39.99</strong></label></p>
+			<div id="paymentWindow">
+				<form class="paymentForm" id="creditForm" name="creditForm">
+					<button id="savedCreditCardBtn" name="savedCreditCardBtn">Saved Card</button>
+					<button id="newCreditCardBtn" name="newCreditCardBtn">New Credit Card</button>
+					<fieldset>
+						<input id="creditCardNumBox" name="creditCardNumBox" required="true" placeholder="Card Number">
+						<input id="creditExpiryBox" name="creditExpiryBox" required="true" placeholder="MM/YY">
+						<input id="creditCvvBox" name="creditCvvBox" required="true" placeholder="CVV">
+						<input id="creditNameBox" name="creditNameBox" required="true" placeholder="Name on Card">
+						<button type="submit" id="creditPayBtn" name="creditPayBtn">Pay</button>
+						<button type="submit" id="creditSavePayBtn" name="creditSavePayBtn">Save & Pay</button>
+						<p id="termsField">Terms and conditions apply.</p>
+					</fieldset>
+				</form>
+				<hr>
+				<p id="disclaimerField">By submitting your payment info, you are agreeing to our Privacy Policy and Terms & Conditions.</p>
+			</div>
+		</main>
+	
+	</body>
+	
+</html>

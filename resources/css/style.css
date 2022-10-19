@@ -1,0 +1,884 @@
+/* ###################################################################################### */
+/* CSS for the Gallery page */
+
+#galleryBody 
+{
+	display: block;
+	background-image: url("../../images/background_test.png");
+	padding: 0 5%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#title
+{
+	text-align: center;
+}
+
+#Form 
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.galleryColumnDiv 
+{
+	flex: 1;
+	min-width: 40%;
+}
+
+.categoryDiv 
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5% 25%;
+}
+
+#Form fieldset 
+{
+	border: 0.2rem solid lightgray;
+	background-color: #F8F0E3;
+}
+
+#fs01
+{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;border: 0.2rem solid lightgray;
+	background-image: url("../../images/Banner.jpg");
+}
+.fs02
+{
+	min-width: 150px;
+	margin: 0 5%;
+	text-align: center;	
+}
+
+.fs03
+{
+	min-width: 400px;
+	height: auto;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.picture
+{
+	width: auto;
+	height: 200px;
+	margin: 5% auto;
+	align-self: flex-end;
+}
+
+.picture:hover 
+{
+	cursor: pointer;
+}
+
+.para2
+{
+	margin: 20px 0 0 3px;
+}
+
+.para3
+{
+	margin: 0px 0 0 3px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.fs04
+{
+	min-width: 150px;
+	margin: 0 5%;
+	text-align: center;
+}
+
+.fs05
+{
+	min-width: 400px;
+	height: auto;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+
+.fs06
+{
+	min-width: 150px;
+	margin: 0 5%;
+	text-align: center;
+}
+
+.fs07
+{
+	min-width: 400px;
+	height: auto;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+/* ###################################################################################### */
+/* CSS for the Contact Us page */
+/* Style inputs with type="text", select elements and textareas */
+
+#contactusbody 
+{
+	background-image: url("../../images/background_test.png");
+	padding: 2%;
+	text-align: center;
+	font-size: 50;
+	font-family: 'Montserrat', sans-serif;
+}
+
+input[type=text], select, textarea 
+{
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+form label 
+{
+	font-size: 1rem;
+	font-weight: bold;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] 
+{
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button */
+input[type=submit]:hover 
+{
+	background-color: #45a049;
+}
+
+/* background color */
+.container 
+{
+	border-radius: 5px;
+	background-color: #F8F0E3;
+	padding: 20px;
+}
+
+
+/* ###################################################################################### */
+/* CSS for Click-Into-Image View page */
+
+/* Background Image */
+#click_background
+{
+	background-image: url("../../images/background_test.png");
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+/* Posted Comments format */
+#comments_container 
+{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14pt;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: auto;
+	/* border:1px solid black; */
+	background-color: #F8F0E3;
+	width: 50%;
+	margin: 25px 0;
+}
+
+#comments_container p 
+{
+	overflow: auto;
+}
+
+/* Text Area Input Div */
+#c_section 
+{
+	border:1px solid black;
+	background-color:#F8F0E3;
+}
+
+/* Text Area Input Box */
+.comment_box 
+{
+	margin: 0 auto;
+	width: 70%;
+}
+
+/* Central Image Format */
+.center 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/* Central Image Fieldset */
+#img_fs 
+{
+	background-color: #F8F0E3;
+	padding: 15px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+#img_fs h2, #img_fs p 
+{
+	text-align: left;
+}
+
+/* Interactive Clear Button */
+#clrbtn 
+{
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#clrbtn:hover 
+{
+	background-color: #45a049;
+}
+
+/* Style button with a specific background color etc */
+input[type=button] 
+{
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over a button */
+input[type=button]:hover 
+{
+	background-color: #45a049;
+}
+
+#click_footer 
+{
+	
+}
+
+
+/* ###################################################################################### */
+/* CSS code for Category page */
+
+#cat_body
+{
+	background-image: url("../../images/background_test.png");
+	line-height: 1.5;
+	font-family: sans-serif;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#cat_body * {
+    margin:0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clickIntoImageLink {
+    max-width: 100%;
+    vertical-align: middle;
+    height: 350px
+}
+
+.clickIntoImageLink:hover {
+	cursor: pointer;
+}
+
+.gallery{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background-color: #F8F0E3;
+   padding: 100px 0;
+}
+
+.container_cat{
+    max-width: 1170px;
+    margin:auto;
+}
+
+.gallery .gallery-filter{
+   padding: 0 15px;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.gallery .gallery-filter .filter-item{
+   color: #ffffff;
+   background-color:#04AA6D;
+   font-size: 17px;
+   border: 2px solid white;
+   text-transform: uppercase;
+   display: inline-block;
+   border-radius: 20px;
+   margin-right: 8px;
+   cursor: pointer;
+   padding: 8px 20px 8px 20px;
+   line-height: 1.2;
+   transition: all 0.3s ease;
+}
+
+.gallery .gallery-filter .filter-item.active{
+  color: white;
+  border-color : #16b5ef;
+  background: #16b5ef;
+}
+
+.gallery .gallery-item{
+    width: calc(100% / 3);
+    padding: 15px;
+
+}
+.gallery .gallery-item-inner img{
+    width: 100%;
+  border: 3px solid #d4dad9;
+}
+
+.gallery .gallery-item.show{
+    animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.gallery .gallery-item.hide{
+    display: none;
+}
+
+@media(max-width: 491px){
+    .gallery .gallery-item{
+        width: 50%;
+    }
+}
+@media(max-width: 667px){
+    .gallery .gallery-item{
+        width: 100%;
+    }
+    .gallery .gallery-filter .filter-item{
+        margin-bottom: 10px;
+    }
+}
+
+/* End of CSS code for Category Page */
+
+/* ###################################################################################### */
+/* Styling the area of the slides */
+#slideshow 
+{
+	overflow: hidden;
+	height: 1024px;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#slideshow > .slide-wrapper > .slide > .slide-number > img 
+{
+	height: 100%;
+	width: 100%;
+}
+
+/* Style each of the sides
+with a fixed width and height */
+.slide 
+{
+	float: left;
+	height: 1680px;
+	width: 1024px;
+}
+
+/* Add animation to the slides */
+.slide-wrapper 
+{
+
+	/* Calculate the total width on the
+		basis of number of slides */
+	width: calc(100% * 4);
+
+	/* Specify the animation with the
+		duration and speed */
+	animation: slide 10s ease infinite;
+	
+}
+
+/* Set the background color
+of each of the slides */
+.slidepics 
+{
+	background-color: white;
+	max-width: 800px;
+	max-height: 750px;
+}
+
+/* Define the animation
+for the slideshow */
+@keyframes slide 
+{
+
+	/* Calculate the margin-left for
+		each of the slides */
+	20% 
+	{
+		margin-left: 0px;
+	}
+
+	40% 
+	{
+		margin-left: calc(-1024px * 1);
+	}
+
+	60% 
+	{
+		margin-left: calc(-1024px * 2);
+	}
+
+	80% 
+	{
+		margin-left: calc(-1024px * 3);
+	}
+
+}
+/* End of CSS code for Slideshow on Main page */
+
+/* ###################################################################################### */
+/* CSS Code for Main page */
+
+#mainbody 
+{
+	background-image: url("../../images/background_test.png");
+	padding: 2%;
+	text-align: center;
+	font-size: 50;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul 
+{
+	font-size: 1.5rem;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	border: none;
+}
+
+ul li 
+{
+	flex: 1;
+	border: 1px solid #ccc;
+	line-height: 1em;
+}
+
+li ul 
+{
+	flex: 1;
+	left: 0;
+	top: 0;
+	display: none;
+	border-bottom: 1px;
+}
+
+ul li a 
+{
+	flex: 1;
+	display: flex;
+	text-decoration: none;
+	color: #fff;
+	background: #006D5B;
+	padding: 5px;
+	border: 3px solid #ccc;
+	border-bottom: 1px;
+}
+
+li:hover ul, li.over ul 
+{
+	display: inline-block;
+}
+
+/* ###################################################################################### */
+/* CSS Code for next and previous buttons */
+
+a 
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+}
+
+a:hover 
+{
+	background-color: #ddd;
+	color: black;
+}
+
+.previous 
+{
+	background-color: #f1f1f1;
+	color: black;
+	width: 300px
+}
+
+.next 
+{
+	background-color: #04AA6D;
+	color: white;
+	width: 300px
+}
+
+.round 
+{
+	border-radius: 50%;
+}
+
+/* ############################################################################################################### */
+/* CSS Code for Exhibition page */
+
+#ExhibBody {
+background-image: url("../../images/background_test.png"); 
+}
+
+#ExhibBanner {
+width: 100%;
+height: 250px;
+}
+
+#ArtistInfoBanner {
+display: flex;
+border-style: solid;
+justify-content: center;
+background-color: #F8F0E3;
+background-size:100%;  
+position:relative;
+width: 89.5%;
+padding:15px;
+height: auto;
+margin: 2% auto;
+background-size:100%;
+}
+
+#ArtisitInfo {
+text-align: center;
+}
+
+#PictureDiv {
+width: 100%;
+display: inline-flex;
+justify-content: center;
+flex-flow: row wrap;
+}
+
+.Pics {
+background-color: #F8F0E3;
+border-style: solid;
+width: 30%;
+height: 50%;
+margin: 1%;
+}
+
+.DisplayedPicture {
+padding: 10;
+width: 100%;
+height: 80%;
+}
+
+.DisplayedPicture:hover {
+cursor: pointer;
+}
+
+.PictureTitle {
+width: 100%;
+font-size: 2.0vmin;
+margin: 0;
+padding-left: 8;
+text-align: justify;
+}
+
+.PictureDescription {
+overflow:auto;
+padding-left: 5;
+padding-right: 10;
+white-space: pre-line;
+font-weight: normal;
+font-size: 1.5vmin;
+padding-left: 10;
+text-align: justify;
+}
+
+/* ##################################################################### */
+/* End of CSS Code for Exhibtion */
+
+/* ############################################################################################################### */
+/* CSS Code for Links page */
+
+.link_content
+{
+	background-color: beige;
+	border-style: solid;
+	opacity: 95%;
+	font-size: 15px;
+/*  box-shadow: black 3px 6px 15px; */
+	width: 1000px;
+	height: 850px;
+	margin: auto;
+	margin-top: 90px;
+	padding-bottom: 60px;
+}
+
+.link_background
+{
+	background-image: url("../../images/background_test.png");
+	background-repeat: repeat;
+}
+
+.artist_featured
+{
+	background-color: pink;
+	color: purple;
+	box-shadow: grey 3px 6px 15px;
+	border-style: double;
+	text-align: center;
+	margin-top: auto;
+	height: 100px;
+}
+
+.link_list
+{
+	font-weight: bold;
+	text-align: left;
+}
+
+.linksLI
+{
+	font-family: "ＭＳ 丸ゴシック","MS UI Gothic";
+}
+
+/* ##################################################################### */
+/* End of CSS Code for Links */
+
+/* ###################################################################################### */
+/* CSS Code for Checkout page */
+
+#checkoutBody header, #checkoutBody section, #checkoutBody main, #checkoutBody div 
+{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0.5rem;
+	padding: 1rem;
+	border: 0.2rem solid lightgray;
+	background-color: #F8F0E3;
+}
+
+#checkoutBody header 
+{
+	text-align: center;
+}
+
+#navMenu 
+{
+	margin: 0 auto;
+	padding: 0;
+	border-collapse: collapse;
+	display: inline-flex;
+	width: 100%;
+}
+
+#navMenu ul 
+{
+	width: 100%;
+}
+
+#navMenu ul li 
+{
+	flex: 1;
+}
+
+#navMenu > ul > li + li, #navMenu > ul > li + li > a 
+{
+	border-left: hidden;
+}
+
+#navMenu ul li a 
+{
+	border-top: hidden;
+}
+
+#cartSection 
+{
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+}
+
+#cartTable 
+{
+	table-layout: fixed;
+	width: 25%;
+	margin: 1.5rem;
+}
+
+.cartCell 
+{
+	padding: 1.25rem;
+	border: 0.2rem solid lightgray;
+	background-color: white;
+	margin: 0 auto;
+}
+
+#productCard 
+{
+	width: 25%;
+	line-height: 0.75;
+	background-color: #EFEFF4;
+}
+
+#productCard img
+{
+	width: 200px;
+	height: auto;
+}
+
+#productDesc 
+{
+	font-size: 0.9rem;
+}
+
+#orderLabel
+{
+	background-color: darkgray;
+	padding: 1rem;
+}
+
+#orderNumLabel
+{
+	margin: 5px 5%;
+}
+
+#totalAmtLabel
+{
+	margin: 5px 20%;
+}
+
+#paymentMethodMenu
+{
+	display: float;
+	float: left;
+}
+
+#paymentMethodMenu > li 
+{
+	list-style-type: none;
+	line-height: 0.5rem;
+}
+
+.paymentForm
+{
+	display: block;
+	width: 40%;
+}
+
+.paymentForm input
+{
+	width: 95%;
+	margin: 1rem auto;
+}
+
+
+#checkoutBody 
+{
+	background-image: url("../../images/background_test.png");
+	padding: 0 5%;
+}
+
+/* ##################################################################### */
+/* End of CSS Code for Checkout */
+
+/* ###################################################################################### */
+/* Sitewide CSS Code */
+
+header 
+{
+	display: flex;
+	text-align: center;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-content: center;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0.5rem;
+	padding: 1rem;
+	border: 0.2rem solid lightgray;
+	background-color: #F8F0E3;
+}
+
+.bannerImg 
+{
+	z-index: 0;
+	max-height: 175px;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.logoImg
+{
+	z-index: 1;
+	max-height: 175px;
+	width: 27.5%;
+	position: absolute;
+}
+
+header h2 
+{
+	font-style: italic;
+	font-weight: normal;
+	line-height: 1.25;
+}
+
+#navButtonDiv 
+{
+	margin: 0 auto;
+}
